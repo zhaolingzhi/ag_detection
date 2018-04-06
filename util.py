@@ -11,15 +11,13 @@ def get_list(file):
 def read_image(path):
     list=[]
     for p in path:
-        image=img.open(p)
-        list.append(np.asarray(image.resize((227,227)),dtype='float64')/256)
+        if p.strip():
+            image=img.open(p)
+            list.append(np.asarray(image.resize((227,227)),dtype='float64')/256)
     return np.asarray(list)
 
 
-def func(x,y):
-    if y==0:
-        return x
-    else:
-        return func(y,x%y)
-
+def saveinfo(file,history):
+    np_accy = np.array(history)
+    np.savetxt(file, np_accy)
 
