@@ -1,0 +1,4 @@
+2018-04-22 21:35:20 age   train:11823 val:1284 test:4316 :acc=0.4691844277767477 batch_size=50 epochs=200 lr=0.1 decay=0.0001 time:2800
+2018-04-22 22:32:28 age   train:4000 val:1284 test:4316 :acc=0.47126969268357344 batch_size=50 epochs=200 lr=0.1 decay=0.0001 time:1511
+2018-04-23 12:55:22 age   train:8000 val:1284 test:4316 :acc=0.521779425808188 batch_size=50 epochs=200 lr=0.1 decay=0.0001 time:7078
+2018-04-23 14:56:04 age   train:8000 val:1284 test:4316 :acc=0.44462465177927996 batch_size=50 epochs=200 lr=0.01 decay=0.0001 time:15036

@@ -1,0 +1,2 @@
+train:11823 val:1284 test:4316 :acc=0.4457831317843719 batch_size=50 epochs=200 lr=0.01 decay=0.0001 time:4587
+2018-04-22 17:57:02 gender   train:12000 val:1339 test:4007 :acc=0.8170701215205896 batch_size=50 epochs=200 lr=0.1 decay=0.0001 time:2247
