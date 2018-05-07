@@ -2,3 +2,6 @@
 2018-04-22 22:32:28 age   train:4000 val:1284 test:4316 :acc=0.47126969268357344 batch_size=50 epochs=200 lr=0.1 decay=0.0001 time:1511
 2018-04-23 12:55:22 age   train:8000 val:1284 test:4316 :acc=0.521779425808188 batch_size=50 epochs=200 lr=0.1 decay=0.0001 time:7078
 2018-04-23 14:56:04 age   train:8000 val:1284 test:4316 :acc=0.44462465177927996 batch_size=50 epochs=200 lr=0.01 decay=0.0001 time:15036
+2018-04-29 17:52:17 age   train:11823 val:1284 test:4316 :acc=0.4585264132352092 batch_size=64 epochs=100 lr=0.01 decay=0.0001 time:6368
+2018-05-01 15:06:02 age   train:11823 val:1284 test:4316 :acc=0.5509731234280018 batch_size=64 epochs=100 lr=0.1 decay=0.001 time:8610
+2018-05-01 18:49:01 age   train:11823 val:1284 test:4316 :acc=0.5315106581824041 batch_size=64 epochs=100 lr=0.1 decay=0.001 time:3701

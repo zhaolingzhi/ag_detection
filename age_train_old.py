@@ -11,31 +11,39 @@ target_label="age"
 
 train_image=None
 train_age_mark=None
+label=0
+size_train=0
+history=[]
 
-size_train=11823
-batch_size=64
-num = int(size_train/batch_size)
-
-epochs=100
-lr=0.1
-decay=0.001
+num=8000
+batch_size=50
+epochs=200
+lr=0.01
+decay=0.0001
 name="_age_model.h5"
 
 nowTime=datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
 start_time = time.time()
 
-model=net_model('Alexnet-simple-age-2.0',lr=lr,decay=decay)
+model=net_model('Alexnet-simple-age',lr=lr,decay=decay)
 
 val_image, val_age_mark = age_data("test_fold_is_0//age_val.txt")
 size_val=len(val_age_mark)
 
-history = train_generator_model(model,"test_fold_is_0//age_train.txt",val_image, val_age_mark,batch_size=batch_size,
-                              epochs=epochs,name=nowTime+name,classes=8,num=num)
-
+while True:
+    if train_image is not None:
+        del train_image, train_age_mark
+    train_image, train_age_mark = age_data("test_fold_is_0//age_train_two.txt", num=num, label=label)
+    if train_image is None:
+        break
+    label = label + 1
+    size_train=size_train+len(train_age_mark)
+    history = history + train_model(model, train_image, train_age_mark, val_image, val_age_mark,
+                                    batch_size=batch_size,epochs=epochs,name=nowTime+name)
 
 saveinfo(log_info,history)
 
-del val_image, val_age_mark
+del train_image, train_age_mark, val_image, val_age_mark
 test_image, test_age_mark = age_data("test_fold_is_0//age_test.txt")
 size_test=len(test_age_mark)
 score = model.evaluate(test_image,test_age_mark,batch_size=batch_size)
