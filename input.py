@@ -1,13 +1,12 @@
 #encoding:utf-8
 import keras
 from util import *
-mark_path='Folds//train_val_txt_files_per_fold//'
 picture_path='Folds/aligned/'
 
 
 def gender_data(path,num=100000,label=0):
     'get the mark and picture as list return,return is image, gender_mark'
-    gender_info=open(mark_path+path,'r')
+    gender_info=open(path,'r')
     gender_list=get_list(gender_info)
 
     gender_mark=[]
@@ -37,7 +36,7 @@ def gender_data(path,num=100000,label=0):
 
 def age_data(path,num=100000,label=0):
     'get the mark and picture as list return,return is image, age_mark'
-    age_info=open(mark_path+path,'r')
+    age_info=open(path,'r')
     age_list=get_list(age_info)
 
     age_mark=[]

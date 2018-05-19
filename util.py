@@ -21,3 +21,11 @@ def saveinfo(file,history):
     np_accy = np.array(history)
     np.savetxt(file, np_accy)
 
+def read_image_flip(path):
+    list = []
+    for p in path:
+        if p.strip():
+            image = img.open(p)
+            image = image.transpose(img.FLIP_LEFT_RIGHT)
+            list.append(np.asarray(image.resize((227, 227)), dtype='float64') / 256)
+    return np.asarray(list)

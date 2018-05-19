@@ -7,3 +7,16 @@
 2018-04-25 20:11:16 gender  Alexnet-simple-gender-4.0   train:4000 val:1339 test:4007 :acc=0.8118292949935698 batch_size=50 epochs=200 lr=0.01 decay=0.0001 time:2354
 2018-04-29 16:02:40 gender  Alexnet-simple-gender-4.0   train:12256 val:1339 test:4007 :acc=0.8442725231589776 batch_size=64 epochs=100 lr=0.01 decay=0.0001 time:5064
 2018-05-06 17:18:21 gender  Alexnet-simple-gender-4.0   train:24512 val:1339 test:4007 :acc=0.8584976291936146 batch_size=64 epochs=100 lr=0.01 decay=0.0001 time:7674
+2018-05-07 15:45:06 gender  Alexnet-simple-gender-4.0   train:8000 val:1339 test:4007 :acc=0.8045919641521407 batch_size=64 epochs=100 lr=0.01 decay=0.0001 time:3099
+2018-05-08 15:27:48 gender  Alexnet-simple-gender-5.0   train:4000 val:1339 test:4007 :acc=0.6922884952673926 batch_size=64 epochs=100 lr=0.01 decay=0.0001 time:1813
+2018-05-08 15:59:20 gender  Alexnet-simple-gender-6.0   train:4000 val:1339 test:4007 :acc=0.7449463440469295 batch_size=64 epochs=100 lr=0.01 decay=0.0001 time:1155
+2018-05-08 16:26:46 gender  Alexnet-simple-gender-4.0   train:4000 val:1339 test:4007 :acc=0.7701522336804661 batch_size=64 epochs=100 lr=0.01 decay=0.0001 time:1600
+2018-05-08 16:55:58 gender  Alexnet-simple-gender-7.0   train:4000 val:1339 test:4007 :acc=0.7664087847161537 batch_size=64 epochs=100 lr=0.01 decay=0.0001 time:1212
+2018-05-08 17:38:57 gender  ResNet-gender-1.0   train:4000 val:1339 test:4007 :acc=0.6503618667629671 batch_size=16 epochs=100 lr=0.01 decay=0.0001 time:2964
+2018-05-09 00:55:29 gender  ResNet-gender-1.0   train:24512 val:1339 test:4007 :acc=0.7763913161801613 batch_size=20 epochs=100 lr=0.01 decay=0.0001 time:14416
+2018-05-09 15:16:28 gender  ResNet-gender-2.0   train:4000 val:1339 test:4007 :acc=0.6715747488238194 False batch_size=25 epochs=100 lr=0.01 decay=0.0001 time:2820
+2018-05-19 01:52:53 gender  Alexnet-simple-gender-9.0   train:12256 val:1339 test:4007 :acc=0.8427751436030029 True batch_size=64 epochs=100 lr=0.1 decay=0.0001 time:4672
+2018-05-19 12:09:04 gender  Alexnet-simple-gender-9.0   train:12256 val:1339 test:4007 :acc=0.8465185925375651 True batch_size=64 epochs=100 lr=0.01 decay=0.0001 time:6603
+2018-05-19 16:41:42 gender  Alexnet-simple-gender-10.0   train:12256 val:1339 test:4007 :acc=0.8547541802441774 True batch_size=64 epochs=100 lr=0.01 decay=0.0001 time:5176
+2018-05-19 18:09:08 gender  Alexnet-simple-gender-10.0   train:12256 val:1339 test:4007 :acc=0.817319690630803 False batch_size=64 epochs=100 lr=0.01 decay=0.0001 time:3808
+2018-05-19 19:18:34 gender  Alexnet-simple-gender-11.0   train:12256 val:1339 test:4007 :acc=0.8465185925375651 False batch_size=64 epochs=100 lr=0.01 decay=0.0001 time:6449
