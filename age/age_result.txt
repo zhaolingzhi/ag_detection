@@ -1,0 +1,15 @@
+2018-04-22 21:35:20 age   train:11823 val:1284 test:4316 :acc=0.4691844277767477 batch_size=50 epochs=200 lr=0.1 decay=0.0001 time:2800
+2018-04-22 22:32:28 age   train:4000 val:1284 test:4316 :acc=0.47126969268357344 batch_size=50 epochs=200 lr=0.1 decay=0.0001 time:1511
+2018-04-23 12:55:22 age   train:8000 val:1284 test:4316 :acc=0.521779425808188 batch_size=50 epochs=200 lr=0.1 decay=0.0001 time:7078
+2018-04-23 14:56:04 age   train:8000 val:1284 test:4316 :acc=0.44462465177927996 batch_size=50 epochs=200 lr=0.01 decay=0.0001 time:15036
+2018-04-29 17:52:17 age   train:11823 val:1284 test:4316 :acc=0.4585264132352092 batch_size=64 epochs=100 lr=0.01 decay=0.0001 time:6368
+2018-05-01 15:06:02 age   train:11823 val:1284 test:4316 :acc=0.5509731234280018 batch_size=64 epochs=100 lr=0.1 decay=0.001 time:8610
+2018-05-01 18:49:01 age   train:11823 val:1284 test:4316 :acc=0.5315106581824041 batch_size=64 epochs=100 lr=0.1 decay=0.001 time:3701
+2018-05-08 11:46:33 age   train:23646 val:1284 test:4316 :acc=0.5440222428174235 batch_size=64 epochs=100 lr=0.1 decay=0.001 time:6125
+2018-05-20 12:35:19 age  Alexnet-simple-age-3.0   train:23646 val:1284 test:4316 :acc=0.5433271547729379 batch_size=64 epochs=100 lr=0.001 decay=1e-05 time:15375
+2018-05-20 23:33:26 age  Alexnet-simple-age-4.0   train:23646 val:1284 test:4316 :acc=0.5509731231517986 batch_size=64 epochs=100 lr=0.001 decay=1e-05 time:12793
+Folds/train_val_txt_files_per_fold/test_fold_is_0/ 2018-05-24 23:59:38 age  Alexnet-simple-age-3.0   train:23646 val:1284 test:4316 :acc=0.5271084337625601 batch_size=64 epochs=100 lr=0.001 decay=1e-05 time:9605
+Folds/train_val_txt_files_per_fold/test_fold_is_1/ 2018-05-25 02:39:48 age  Alexnet-simple-age-3.0   train:25788 val:1428 test:3101 :acc=0.4211544662146982 batch_size=64 epochs=100 lr=0.001 decay=1e-05 time:6988
+Folds/train_val_txt_files_per_fold/test_fold_is_2/ 2018-05-25 04:36:21 age  Alexnet-simple-age-3.0   train:25310 val:1429 test:3339 :acc=0.5336927223362655 batch_size=64 epochs=100 lr=0.001 decay=1e-05 time:9817
+Folds/train_val_txt_files_per_fold/test_fold_is_3/ 2018-05-25 07:20:03 age  Alexnet-simple-age-3.0   train:25982 val:1457 test:2975 :acc=0.44907563007178425 batch_size=64 epochs=100 lr=0.001 decay=1e-05 time:10338
+Folds/train_val_txt_files_per_fold/test_fold_is_4/ 2018-05-25 10:12:26 age  Alexnet-simple-age-3.0   train:24742 val:1359 test:3693 :acc=0.49011643684042716 batch_size=64 epochs=100 lr=0.001 decay=1e-05 time:8899
